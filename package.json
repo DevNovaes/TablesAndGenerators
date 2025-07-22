@@ -4,7 +4,9 @@
   "description": "Site de tabelas e geradores de RPG com contribuição da comunidade.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "DevNovaes",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^15.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
