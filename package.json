@@ -1,0 +1,16 @@
+{
+  "name": "tablesandgenerators",
+  "version": "1.0.0",
+  "description": "Site de tabelas e geradores de RPG com contribuição da comunidade.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "DevNovaes",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
